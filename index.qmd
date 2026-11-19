@@ -7,12 +7,10 @@ pagetitle: "José Belmar"
 ![](images/home-banner.jpg){.home-photo fig-alt="José Belmar"}
 
 ::: {.home-intro}
-**Economist, Inter-American Development Bank**
+I am an economist in the Infrastructure and Energy Sector of the Inter-American Development Bank. I received my PhD in Economics from Brown University in 2024.
 
-I am an economist working on long-run economic development, infrastructure, energy, and environmental economics, with a particular focus on Latin America.
+My research is in development, environmental, and energy economics, with a focus on Latin America. I study how drought and water scarcity affect electricity systems, how local institutions govern shared resources such as water, and how transportation infrastructure and trade shape regional development over the long run.
 
-I am an economics consultant in the Knowledge Team of the Infrastructure and Energy Sector (INE) at the Inter-American Development Bank. I hold a PhD in Economics from Brown University, and an MA and BA in Economics from Universidad de Chile.
-
-[jbel@iadb.org](mailto:jbel@iadb.org) · [CV](files/Belmar_CV.pdf){target="_blank"} · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198312) · [Google Scholar](https://scholar.google.com/citations?user=uAAT7tcAAAAJ)
+[jbel@iadb.org](mailto:jbel@iadb.org) · [CV](files/Belmar_CV.pdf){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=uAAT7tcAAAAJ)
 :::
 :::
