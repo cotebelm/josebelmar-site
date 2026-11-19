@@ -63,7 +63,7 @@
     - name: Maximiliano García
       url: https://maxgarc.github.io/
 
-- title: "Drought and Hydropower in Latin America: Generation Losses and Investment Responses"
+- title: "Drought and the Power Mix in Latin America: Short-Run Substitution and Long-Run Investment"
   section: progress
   status: "Draft coming soon"
   coauthors:
@@ -71,6 +71,8 @@
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
     - name: Ye-Rim Lee
       url: https://scholar.google.com/citations?user=nNA5_wwAAAAJ
+  abstract: >-
+    Hydropower generates two fifths of Latin America's electricity, while the region's droughts grow more frequent and more intense. This paper measures their effects on power supply in three steps: the hydropower lost, how the shortfall is covered, and what gets built afterwards. We use a monthly panel of 2,814 plants in ten systems of Brazil, Chile, Colombia, Ecuador and Peru, 70% of the region's hydropower capacity, for 2000–2024, and measure drought with runoff anomalies in each plant's basin. One standard deviation of scarcity lowers a system's hydro output by 8.8% of mean generation; a basin in drought loses a sixth of its hydro output within six months, and its reservoirs lose more than its run-of-river plants. Where a system can trade, imports cover part of the loss. Every system burns more thermal fuel: thermal output rises 19%, at plants burning diesel, fuel oil or a mix of gas and oil, mostly lightly used plants that are already running, and not at gas plants. At fixed emission factors, CO₂ rises 18% and SO₂ 23%. After three years of scarcity, new thermal plants enter in Brazil and Chile; in Colombia, new hydro follows a single dry year. What a system emits in dry years depends on the backup plants it keeps.
 
 - title: "Who Turned On the Lights? Electricity Supply Shocks and Development in Ecuador"
   section: progress
