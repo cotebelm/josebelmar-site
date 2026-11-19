@@ -16,6 +16,12 @@ Página web personal y CV de José Belmar. Creado el 18-11-2026.
   carpeta temporal y copia el PDF a `files/Belmar_CV.pdf`, que sí se versiona
   (el CI no compila LaTeX).
 
+- **Dos versiones del CV** (desde 19-11-2026), ambas del mismo proyecto de Overleaf:
+  `main.tex` es la del sitio (sin párrafos de resumen, solo "Research Fields") y es la
+  única que se publica; `application.tex` es la de postulaciones (sección "Summary"
+  con investigación y trabajo en el BID). `.\scripts\build_cv.ps1 -Application` la
+  deja en `Documents\Belmar_CV_application.pdf`; nunca va a `files/`.
+
 ## Comandos
 
 - Previsualizar: `quarto preview`
