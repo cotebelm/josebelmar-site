@@ -16,7 +16,3 @@ I am an economics consultant in the Knowledge Team of the Infrastructure and Ene
 [jbel@iadb.org](mailto:jbel@iadb.org) · [CV](files/Belmar_CV.pdf){target="_blank"} · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198312) · [Google Scholar](https://scholar.google.com/citations?user=uAAT7tcAAAAJ)
 :::
 :::
-
-::: {.disclaimer}
-The views expressed on this site are my own and do not necessarily reflect those of the Inter-American Development Bank, its Board of Directors, or the countries they represent.
-:::

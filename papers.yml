@@ -17,7 +17,7 @@
   abstract: >-
     Water resources present a classic tragedy of the commons that is of increasing relevance due to climate change. This paper provides evidence of how property rights institutions, particularly local irrigators' organizations, impact water markets' efficiency. Our analysis is based on a unique dataset that integrates administrative records, hydrological measures, geographic information, and satellite imagery. We develop a novel misallocation test, which suggests that these organizations reduce misallocation caused by the natural capacity of upstream users to over-extract. We show that these efficiency gains are a result of both water redistribution and individual adaptation, as downstream farmers increase their water consumption and agricultural yield. Large farms extend their growing season, adopt more efficient irrigation technologies, and overall gather more benefits from the analyzed property rights institution. Meanwhile, although upstream farmers reduce their water consumption, their productive outcomes remain unchanged. We also document increases in river streamflow during the irrigation season, concentrated in basins with higher agricultural activity. Our results provide micro-evidence of the consequences of effective governance for both allocative efficiency and equity.
 
-- title: "Powering Through Drought: The Impact of Water Scarcity on Electricity Generation"
+- title: "Powering Through Drought: The Impacts of Water Scarcity on Electricity Systems"
   section: working
   coauthors:
     - name: Lisa Bagnoli
@@ -26,7 +26,7 @@
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
     - name: David Matías
       url: https://scholar.google.com/citations?user=IzirlNUAAAAJ
-  status: "IDB Working Paper, 2025"
+  status: "IDB Working Paper, 2025. New draft coming soon"
   links:
     - label: IDB Working Paper
       url: https://doi.org/10.18235/0013848
@@ -55,6 +55,7 @@
 
 - title: "Balancing Act: Hydropower Generation and Competing Water Uses"
   section: progress
+  status: "Draft coming soon"
   coauthors:
     - name: Lenin Balza
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
@@ -63,6 +64,7 @@
 
 - title: "Drought and Hydropower in Latin America: Generation Losses and Investment Responses"
   section: progress
+  status: "Draft coming soon"
   coauthors:
     - name: Lenin Balza
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
@@ -71,6 +73,7 @@
 
 - title: "Who Turned On the Lights? Electricity Supply Shocks and Development in Ecuador"
   section: progress
+  status: "Draft coming soon"
   coauthors:
     - name: Julio Acuña
       url: https://www.julioacuna.com/
@@ -81,6 +84,7 @@
 
 - title: "Energy Transformation and Local Economic Development: Evidence from Renewable Energy Investments"
   section: progress
+  status: "Draft coming soon"
   coauthors:
     - name: Lenin Balza
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
