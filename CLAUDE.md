@@ -39,9 +39,12 @@ Página web personal y CV de José Belmar. Creado el 18-11-2026.
   `www.josebelmar.com` (decidido el 18-11-2026). Repo público y Pages activado el 19-11-2026;
   vista previa en https://cotebelm.github.io/josebelmar-site/. El historial se
   reescribió ese día en un solo commit (el primero traía un CV con la dirección de
-  casa); respaldo local en `~/repos/josebelmar-site-history-backup.bundle`. El
-  cambio de DNS del dominio lo hace José en su registrador; no tocar el dominio
-  sin confirmación explícita.
+  casa); respaldo local en `~/repos/josebelmar-site-history-backup.bundle`. Dominio
+  migrado el 19-11-2026: en Squarespace Domains (cuenta Google de José) el CNAME
+  `www` apunta a `cotebelm.github.io`; el apex `josebelmar.com` sigue con la
+  redirección de Squarespace a `www`. HTTPS forzado. Si GitHub no emite el
+  certificado tras ~1 h, quitar y volver a poner el dominio en Pages lo destraba.
+  No tocar el DNS sin confirmación explícita de José.
 - **Skills / agents**: no se copió nada a `.claude/` del proyecto ni desde el
   upstream `claude-code-my-workflow`. Es un sitio estático chico; bastan las skills
   de nivel usuario. Revisar solo si aparece un flujo repetitivo (p. ej. sincronizar
@@ -60,5 +63,4 @@ Página web personal y CV de José Belmar. Creado el 18-11-2026.
 
 - Confirmaciones de José sobre papers (títulos, coautores, estados) y PDF propio del
   paper de Panamá para alojarlo en `files/` en vez de Drive.
-- Revisión de José del sitio publicado; luego dominio propio (`www.josebelmar.com`)
-  y cambio de DNS, y retirar el Google Sites.
+- Retirar el Google Sites (ya no recibe el dominio; no hay apuro).
