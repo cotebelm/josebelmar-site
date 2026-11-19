@@ -9,7 +9,7 @@ pagetitle: "José Belmar"
 ::: {.home-intro}
 I am an economist in the Infrastructure and Energy Sector of the Inter-American Development Bank. I received my PhD in Economics from Brown University.
 
-My research is in development economics and applied microeconomics, with a focus on Latin America. I study how institutions and infrastructure shape economic development: how institutions govern water, from irrigators' organizations to the control of river basins shared by hydropower and other users; how electricity systems respond to drought and water scarcity; and how transportation infrastructure, trade, and land reform shape regional development over the long run.
+My research is in development economics, with a focus on Latin America. I study how institutions and infrastructure shape economic development. My current work examines who controls and governs water, how electricity systems respond to drought, and how transportation infrastructure, trade, and land reform shape regional development over the long run.
 
 [jbel@iadb.org](mailto:jbel@iadb.org) · [CV](files/Belmar_CV.pdf){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=uAAT7tcAAAAJ)
 :::
