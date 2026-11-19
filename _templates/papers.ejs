@@ -1,0 +1,39 @@
+<%
+const sections = [
+  { key: "working", title: "Working Papers" },
+  { key: "progress", title: "Selected Work in Progress" }
+];
+const authorHtml = (a) => a.url ? `<a href="${a.url}">${a.name}</a>` : a.name;
+const joinAuthors = (list) => {
+  const h = list.map(authorHtml);
+  if (h.length <= 1) return h.join("");
+  return h.slice(0, -1).join(", ") + " and " + h[h.length - 1];
+};
+%>
+<% for (const sec of sections) { %>
+<% const its = items.filter((i) => i.section === sec.key); %>
+<% if (its.length === 0) continue; %>
+<h2><%= sec.title %></h2>
+<div class="paper-list">
+<% for (const item of its) { %>
+<div class="paper" <%= metadataAttrs(item) %>>
+<p class="paper-title"><strong><%= item.title %></strong></p>
+<% if (item.coauthors && item.coauthors.length) { %>
+<p class="paper-meta">with <%= joinAuthors(item.coauthors) %></p>
+<% } %>
+<% if (item.status) { %>
+<p class="paper-meta paper-status"><em><%= item.status %></em></p>
+<% } %>
+<% if (item.links && item.links.length) { %>
+<p class="paper-links"><%= item.links.map((l) => `<a href="${l.url}">${l.label}</a>`).join(" · ") %></p>
+<% } %>
+<% if (item.abstract) { %>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p><%= item.abstract %></p>
+</details>
+<% } %>
+</div>
+<% } %>
+</div>
+<% } %>

@@ -1,0 +1,103 @@
+# Fuente de verdad de la página Research. Un ítem por paper.
+# section: working | progress
+# status: texto libre, p. ej. "Submitted", "R&R, <revista>", "IDB Working Paper, 2025".
+# Enlace de coautor: sitio personal si existe; si no, Google Scholar; si no, nada.
+# Campos opcionales: coauthors (name, url), status, abstract, links (label, url),
+# featured (true) + hook (frase para la portada).
+
+- title: "Governing Environmental Markets: Evidence from Irrigation in Water Markets"
+  section: working
+  coauthors:
+    - name: Maximiliano García
+      url: https://maxgarc.github.io/
+  status: "Submitted"
+  links:
+    - label: SSRN
+      url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198312
+  featured: true
+  hook: "Local irrigators' organizations reduce the misallocation of water caused by upstream over-extraction, raising downstream farmers' water use and yields."
+  abstract: >-
+    Water resources present a classic tragedy of the commons that is of increasing relevance due to climate change. This paper provides evidence of how property rights institutions, particularly local irrigators' organizations, impact water markets' efficiency. Our analysis is based on a unique dataset that integrates administrative records, hydrological measures, geographic information, and satellite imagery. We develop a novel misallocation test, which suggests that these organizations reduce misallocation caused by the natural capacity of upstream users to over-extract. We show that these efficiency gains are a result of both water redistribution and individual adaptation, as downstream farmers increase their water consumption and agricultural yield. Large farms extend their growing season, adopt more efficient irrigation technologies, and overall gather more benefits from the analyzed property rights institution. Meanwhile, although upstream farmers reduce their water consumption, their productive outcomes remain unchanged. We also document increases in river streamflow during the irrigation season, concentrated in basins with higher agricultural activity. Our results provide micro-evidence of the consequences of effective governance for both allocative efficiency and equity.
+
+- title: "Powering Through Drought: The Impact of Water Scarcity on Electricity Generation"
+  section: working
+  coauthors:
+    - name: Lisa Bagnoli
+      url: https://scholar.google.com/citations?user=K5yLIIoAAAAJ
+    - name: Lenin Balza
+      url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
+    - name: David Matías
+      url: https://scholar.google.com/citations?user=IzirlNUAAAAJ
+  status: "IDB Working Paper, 2025"
+  links:
+    - label: IDB Working Paper
+      url: https://doi.org/10.18235/0013848
+  featured: true
+  hook: "In Chile, local droughts cut hydropower output by about 20% and shift generation to thermal plants, raising emissions and local pollution."
+  abstract: >-
+    Changing weather patterns pose a fundamental challenge to electricity systems reliant on water resources. Using two decades of plant-level generation and fuel input data matched to hydrological basins in Chile, we show that local droughts reduce hydro output by about 20% on average and trigger sharp increases in thermal generation among plants with spare capacity. This substitution cushions short-run losses in supply and guarantees reliability of the system but creates a double burden for affected regions, which face both water scarcity and increases in local pollution. At the aggregate level, emissions from high-capacity thermal plants rise by roughly 34% during system-wide droughts, corresponding to about 1.4–1.8% of annual national emissions and 5.5–6.5% of the power sector's total. We also document that prolonged droughts were followed by expansions in thermal capacity, consistent with long-run lock-in of high-carbon-intensity technologies. Together, these results provide quantitative benchmarks for infrastructure planning, highlight the risk of path dependence in investment under climatic stress, and underscore the importance of ensuring sufficient capacity, diversification, and resilience in power system planning.
+
+- title: "Trade and Structural Change: Evidence from Colombia and the Panama Canal"
+  section: working
+  coauthors:
+    - name: Diego Gentile
+      url: https://diegogp.com/
+  links:
+    - label: Draft
+      url: https://drive.google.com/file/d/1ic2gXjRt-Cusr2cmAdahfpyjHggx1sd3/view?usp=sharing
+  featured: true
+  hook: "Colombian regions that gained access to world markets through the Panama Canal saw faster population growth and structural change."
+  abstract: >-
+    This paper leverages a quasi-natural experiment to trace the short- and long-run effects of international trade on structural change in an economy with a comparative advantage in agriculture. I find that regions in Colombia that gained access to international markets thanks to the opening of the Panama Canal experienced higher population growth and faster structural change. While the impact of trade on population growth is increasing in the capacity to grow agricultural exports, the impact of trade on structural change is maximized at intermediate levels. Furthermore, I provide evidence of the indirect effects of trade: regions located between ports and places suitable for growing agricultural exports saw a larger share of their labor reallocated towards services. The findings highlight the within-country distributional consequences of exposure to international trade for developing countries.
+
+- title: "Bimodal Transportation Infrastructure and Regional Development: Evidence from Argentina, 1960–1991"
+  section: working
+  coauthors:
+    - name: Diego Gentile
+      url: https://diegogp.com/
+  status: "CAF Working Paper, 2021"
+  links:
+    - label: CAF Working Paper
+      url: https://scioteca.caf.com/handle/123456789/1714
+  abstract: >-
+    This paper estimates the impact of alternative transportation modes on economic development. It focuses on Argentina, where over three decades, 10,000 kilometers of railroads were closed, and 18,000 kilometers of paved roads were constructed. Our empirical strategy leverages a discontinuity in how a World Bank mission selected railroads for closure assessment. We find that the dismantling of railroads operated as a negative trade shock that led to an overall decline in economic activity. It decreased the share of labor in agriculture - the export sector - and had negative impacts on both the population and industrial production. We find evidence of paved roads increasing the share of labor in manufactures, but no impacts on population growth nor industrial production.
+
+- title: "Drought and Hydropower in Latin America: Generation Losses and Investment Responses"
+  section: progress
+  coauthors:
+    - name: Lenin Balza
+      url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
+    - name: Ye-Rim Lee
+      url: https://scholar.google.com/citations?user=nNA5_wwAAAAJ
+
+- title: "Who Turned On the Lights? Electricity Supply Shocks and Development in Ecuador"
+  section: progress
+  coauthors:
+    - name: Julio Acuña
+      url: https://www.julioacuna.com/
+    - name: Lenin Balza
+      url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
+    - name: Nicolás Gómez-Parra
+      url: https://scholar.google.com/citations?user=1xjpsMgAAAAJ
+
+- title: "Balancing Act: Hydropower Generation and Competing Water Uses"
+  section: progress
+  coauthors:
+    - name: Lenin Balza
+      url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
+    - name: Maximiliano García
+      url: https://maxgarc.github.io/
+
+- title: "Energy Transformation and Local Economic Development: Evidence from Renewable Energy Investments"
+  section: progress
+  coauthors:
+    - name: Lenin Balza
+      url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
+    - name: Laura Heras
+      url: https://lauraherasrec.github.io/
+
+- title: "Land Redistribution and Literacy in the Aftermath of the Mexican Revolution, 1910–1930"
+  section: progress
+  coauthors:
+    - name: Laura Heras
+      url: https://lauraherasrec.github.io/

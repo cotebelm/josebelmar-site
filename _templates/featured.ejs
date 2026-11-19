@@ -1,0 +1,13 @@
+<div class="paper-list featured">
+<% for (const item of items.filter((i) => i.featured)) { %>
+<div class="paper" <%= metadataAttrs(item) %>>
+<p class="paper-title"><strong><%= item.title %></strong></p>
+<% if (item.coauthors && item.coauthors.length) { %>
+<p class="paper-meta">with <%= item.coauthors.map((a) => a.name).join(", ") %></p>
+<% } %>
+<% if (item.hook) { %>
+<p class="paper-hook"><%= item.hook %></p>
+<% } %>
+</div>
+<% } %>
+</div>

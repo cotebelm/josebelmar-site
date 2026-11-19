@@ -1,0 +1,24 @@
+# Quarto
+/_site/
+/.quarto/
+**/*.quarto_ipynb
+
+# LaTeX (CV)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.Rhistory
+.claude/settings.local.json
+
+# Credenciales
+*token*
+.env

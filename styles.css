@@ -1,0 +1,102 @@
+/* Estilo sobrio sobre el tema cosmo */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+main.content {
+  max-width: 780px;
+}
+
+h1, h2, h3, .navbar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Portada */
+.home-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.home-photo {
+  width: 220px;
+  max-width: 100%;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.home-header > p:first-child {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .home-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* Papers */
+.paper {
+  margin: 1.4rem 0;
+}
+
+.paper p {
+  margin: 0.1rem 0;
+}
+
+.paper-meta {
+  color: #495057;
+}
+
+.paper-links {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.paper-abstract {
+  margin-top: 0.3rem;
+}
+
+.paper-abstract summary {
+  cursor: pointer;
+  color: #495057;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.paper-abstract p {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid #dee2e6;
+  font-size: 0.97rem;
+}
+
+.paper-hook {
+  color: #343a40;
+}
+
+.disclaimer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}

@@ -1,0 +1,12 @@
+---
+title: "Research"
+listing:
+  id: papers
+  contents: papers.yml
+  template: _templates/papers.ejs
+  sort: false
+  page-size: 100
+---
+
+::: {#papers}
+:::

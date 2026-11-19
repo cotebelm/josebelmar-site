@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - files/
+
+website:
+  title: "José Belmar"
+  site-url: https://www.josebelmar.com
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      # PDF generado desde Overleaf con scripts/build_cv.ps1
+      - text: CV
+        href: files/Belmar_CV.pdf
+        target: _blank
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en
