@@ -84,6 +84,8 @@
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
     - name: Nicolás Gómez-Parra
       url: https://scholar.google.com/citations?user=1xjpsMgAAAAJ
+  abstract: >-
+    We estimate the causal effect of electricity-service reliability—the quality of an existing connection rather than access to it—on local productive activity in Ecuador, where hydropower supplies close to 80 percent of generation. We measure reliability from the regulator's interruption records and estimate dynamic responses with a local-projections instrumental-variables design, instrumenting municipal reliability with a shift-share instrument based on river runoff anomalies (deviations from historical means), weighted by upstream hydroelectric capacity and distance. The most robust response is compositional: improved reliability shifts the local firm population toward younger firms—average firm age falls, consistent with rising entry and falling exit—with the clearest activity response among young firms, whose exports rise over the medium run. Local sales, exports, payroll and wages move in the same direction but are individually imprecise, while employment shows no response. Because the identifying variation is drought-driven, the results also speak to how climate variability reaches firms through the electricity channel in hydro-dependent economies.
 
 - title: "A Tale of Two Pathways: The Local Economic Impacts of Solar Energy Investments in Colombia"
   section: progress
