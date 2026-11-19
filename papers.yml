@@ -91,6 +91,8 @@
       url: https://scholar.google.com/citations?user=1K-_JF0AAAAJ
     - name: Laura Heras
       url: https://lauraherasrec.github.io/
+  abstract: >-
+    Solar investment comes in two forms: large plants connected to the grid and small systems installed by households and firms for their own use. We study their local economic effects in Colombia, where between 2017 and 2024 small plants were 99% of the solar plants installed and large plants 87% of the new capacity. We combine plant-level data on solar investment with a municipal panel of formal employment, tax revenue and value added, and estimate local projections separately for plants above and below 1 MW. Large plants follow the cycle of a construction project: construction employment and tax revenue rise while they are built and employment falls after start-up, value added rises in the primary sector, and neighbouring municipalities lose workers. Small plants raise formal employment one year after start-up, across trade and services, and raise municipal tax revenue, largely through the tax on local business income, with no effect on total measured value added and positive spillovers to neighbouring municipalities. The local footprint of solar deployment depends on the scale at which it is installed.
 
 - title: "Agrarian Reform, Structural Transformation and Regional Development in Post-Revolutionary Mexico, 1916–1976"
   section: progress
