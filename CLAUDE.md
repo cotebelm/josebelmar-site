@@ -22,11 +22,22 @@ Página web personal y CV de José Belmar. Creado el 18-11-2026.
   con investigación y trabajo en el BID). `.\scripts\build_cv.ps1 -Application` la
   deja en `Documents\Belmar_CV_application.pdf`; nunca va a `files/`.
 
+- **PDFs de papers** (desde 21-11-2026): se alojan en `files/` con nombre fijo, no en
+  Drive, para que el enlace del sitio, del CV y el "Link to Latest Version" del propio
+  paper no cambien entre versiones. `scripts/build_paper.ps1` hace pull del clon de
+  Overleaf, compila y recomprime las imágenes con `scripts/compress_pdf.py` (PyMuPDF,
+  150 dpi). Paper de Panamá: `..\panamacanal_overleaf`, `paper.tex` →
+  `files/Belmar_Panama_Canal.pdf` (136 MB sin comprimir, ~6 MB comprimido; GitHub
+  rechaza archivos de más de 100 MB).
+
 ## Comandos
 
 - Previsualizar: `quarto preview`
 - Compilar: `quarto render` (salida en `_site/`, ignorada por git)
 - Actualizar CV: `.\scripts\build_cv.ps1`, luego commit de `files/Belmar_CV.pdf`
+- Actualizar el paper de Panamá:
+  `.\scripts\build_paper.ps1 -Repo ..\panamacanal_overleaf -Main paper -Name Belmar_Panama_Canal.pdf`,
+  luego commit del PDF
 - Quarto está instalado en versión portable, fuera del PATH:
   `%LOCALAPPDATA%\Programs\Quarto\bin\quarto.exe`
 - Publicación: `.github/workflows/publish.yml` compila y despliega a GitHub Pages
@@ -61,6 +72,5 @@ Página web personal y CV de José Belmar. Creado el 18-11-2026.
 
 ## Pendientes
 
-- Confirmaciones de José sobre papers (títulos, coautores, estados) y PDF propio del
-  paper de Panamá para alojarlo en `files/` en vez de Drive.
+- Confirmaciones de José sobre papers (títulos, coautores, estados).
 - Retirar el Google Sites (ya no recibe el dominio; no hay apuro).
